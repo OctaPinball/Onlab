@@ -1,0 +1,31 @@
+{
+  "created_at": "2023-04-15T21:12:12.789221",
+  "version": "0.1",
+  "mtllibs": [],
+  "vertex_buffers": [
+    {
+      "material": "m7",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 0,
+      "byte_length": 221952
+    },
+    {
+      "material": "m2",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 221952,
+      "byte_length": 6400
+    },
+    {
+      "material": "m3",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 228352,
+      "byte_length": 4608
+    },
+    {
+      "material": "m7_ref",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 232960,
+      "byte_length": 28032
+    }
+  ]
+}

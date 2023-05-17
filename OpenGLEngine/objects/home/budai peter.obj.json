@@ -1,0 +1,5289 @@
+{
+  "created_at": "2023-04-15T20:09:47.060119",
+  "version": "0.1",
+  "mtllibs": [
+    "budai peter.mtl"
+  ],
+  "vertex_buffers": [
+    {
+      "material": "AL0436_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 0,
+      "byte_length": 900000
+    },
+    {
+      "material": "AL0436_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 900000,
+      "byte_length": 600000
+    },
+    {
+      "material": "ID114_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1500000,
+      "byte_length": 720
+    },
+    {
+      "material": "ID118_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1500720,
+      "byte_length": 720
+    },
+    {
+      "material": "ID1195_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1501440,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID1195_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1502640,
+      "byte_length": 1020
+    },
+    {
+      "material": "ID11_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1503660,
+      "byte_length": 720
+    },
+    {
+      "material": "ID120_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1504380,
+      "byte_length": 720
+    },
+    {
+      "material": "ID124_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1505100,
+      "byte_length": 480
+    },
+    {
+      "material": "ID124_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1505580,
+      "byte_length": 240
+    },
+    {
+      "material": "ID128_F_d_m",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1505820,
+      "byte_length": 240
+    },
+    {
+      "material": "ID128_F_d_m_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1506060,
+      "byte_length": 960
+    },
+    {
+      "material": "ID1377_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1507020,
+      "byte_length": 720
+    },
+    {
+      "material": "ID141_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1507740,
+      "byte_length": 720
+    },
+    {
+      "material": "ID1424_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1508460,
+      "byte_length": 720
+    },
+    {
+      "material": "ID1430_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1509180,
+      "byte_length": 720
+    },
+    {
+      "material": "ID1436_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1509900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID1442_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1510620,
+      "byte_length": 720
+    },
+    {
+      "material": "ID146__lt__objektu",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1511340,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID146__lt__objektu_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1516140,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID146__lt__objektu_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1520940,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID146__lt__objektu_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1525740,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID1478__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1530540,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID1478__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1564260,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID1478__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1688820,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID155_F_d_m",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1691460,
+      "byte_length": 720
+    },
+    {
+      "material": "ID155_F_d_m_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1692180,
+      "byte_length": 480
+    },
+    {
+      "material": "ID156_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1692660,
+      "byte_length": 720
+    },
+    {
+      "material": "ID163_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1693380,
+      "byte_length": 720
+    },
+    {
+      "material": "ID164535_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1694100,
+      "byte_length": 720
+    },
+    {
+      "material": "ID164541_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1694820,
+      "byte_length": 720
+    },
+    {
+      "material": "ID164547_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1695540,
+      "byte_length": 720
+    },
+    {
+      "material": "ID164553_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1696260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID164559_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1696980,
+      "byte_length": 720
+    },
+    {
+      "material": "ID165__lt__objektu",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1697700,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID165__lt__objektu_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1731420,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID165__lt__objektu_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1855800,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID17_Tet",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1858440,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18103_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1859160,
+      "byte_length": 600
+    },
+    {
+      "material": "ID18103_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1859760,
+      "byte_length": 1080
+    },
+    {
+      "material": "ID18126_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1860840,
+      "byte_length": 5520
+    },
+    {
+      "material": "ID18126_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1866360,
+      "byte_length": 9240
+    },
+    {
+      "material": "ID18131__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1875600,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18131__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1876320,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18131__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1877040,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18142_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1877760,
+      "byte_length": 3060
+    },
+    {
+      "material": "ID18142_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1880820,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID18146__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 1882740,
+      "byte_length": 310200
+    },
+    {
+      "material": "ID18157_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2192940,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID18157_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2194140,
+      "byte_length": 1080
+    },
+    {
+      "material": "ID18168_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2195220,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18168_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2195940,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID18168_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2197860,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID18168_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2199540,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18172__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2200260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18172__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2200980,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18172__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2201700,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18173_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2202420,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID18173_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2204100,
+      "byte_length": 3120
+    },
+    {
+      "material": "ID18200_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2207220,
+      "byte_length": 480
+    },
+    {
+      "material": "ID18200_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2207700,
+      "byte_length": 240
+    },
+    {
+      "material": "ID18203_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2207940,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID18203_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2209620,
+      "byte_length": 2820
+    },
+    {
+      "material": "ID18223_L_pcs",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2212440,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2213160,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2213880,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2214600,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2215320,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2216040,
+      "byte_length": 13140
+    },
+    {
+      "material": "ID18223_L_pcs__06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2229180,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2229900,
+      "byte_length": 960
+    },
+    {
+      "material": "ID18223_L_pcs__08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2230860,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2231580,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2232300,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2233020,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__12",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2233740,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__13",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2234460,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__14",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2235180,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__15",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2235900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__16",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2236620,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18223_L_pcs__17",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2237340,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18226_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2238060,
+      "byte_length": 720
+    },
+    {
+      "material": "ID18226_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2238780,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID18_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2240460,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19586_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2241180,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19586_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2241900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19586_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2242620,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19586_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2243340,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19586_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2245260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19586_Ablak_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2245980,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19586_Ablak_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2247900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19586_Ablak_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2248620,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19586_Ablak_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2250300,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19586_Ablak_9",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2252220,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19597_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2254140,
+      "byte_length": 360
+    },
+    {
+      "material": "ID19597_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2254500,
+      "byte_length": 360
+    },
+    {
+      "material": "ID19614_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2254860,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19614_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2255580,
+      "byte_length": 2160
+    },
+    {
+      "material": "ID19627_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2257740,
+      "byte_length": 960
+    },
+    {
+      "material": "ID19627_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2258700,
+      "byte_length": 1440
+    },
+    {
+      "material": "ID19631_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2260140,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19631_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2261820,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2262540,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2263260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2263980,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2264700,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2265420,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2266140,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2266860,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2267580,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19639__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2268300,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2269020,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2269740,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2270460,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2271180,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2271900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2272620,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2273340,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2274060,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19645__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2274780,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2275500,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2276220,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2276940,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2277660,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2278380,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2279100,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2279820,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2280540,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19651__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2281260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2281980,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2282700,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2283420,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2284140,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2284860,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2285580,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2286300,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2287020,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19654__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2287740,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19656_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2288460,
+      "byte_length": 480
+    },
+    {
+      "material": "ID19656_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2288940,
+      "byte_length": 240
+    },
+    {
+      "material": "ID19671__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2289180,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2289900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2290620,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2291340,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2292060,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2292780,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2293500,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2294220,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19671__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2294940,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2295660,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2296380,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2297100,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2297820,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2298540,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2299260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2299980,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2300700,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19678__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2301420,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19683_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2302140,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19683_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2302860,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19684_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2304540,
+      "byte_length": 480
+    },
+    {
+      "material": "ID19684_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2305020,
+      "byte_length": 240
+    },
+    {
+      "material": "ID19709_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2305260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19709_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2305980,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19709_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2307900,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19709_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2308620,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19709_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2310540,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19709_Ablak_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2311260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19709_Ablak_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2311980,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19709_Ablak_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2313900,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19718_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2315580,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19718_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2317260,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19722_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2317980,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19722_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2318700,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19722_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2320620,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19722_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2321820,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19758_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2323020,
+      "byte_length": 600
+    },
+    {
+      "material": "ID19758_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2323620,
+      "byte_length": 1080
+    },
+    {
+      "material": "ID19788_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2324700,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19788_Ablak_01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2325420,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19788_Ablak_02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2327100,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19788_Ablak_03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2327820,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID19788_Ablak_04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2332620,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19788_Ablak_05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2334540,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19788_Ablak_06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2336460,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID19788_Ablak_07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2339340,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19788_Ablak_08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2341260,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19788_Ablak_09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2343180,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID19788_Ablak_10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2346060,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19788_Ablak_11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2346780,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19789_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2347980,
+      "byte_length": 480
+    },
+    {
+      "material": "ID19789_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2348460,
+      "byte_length": 240
+    },
+    {
+      "material": "ID19821_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2348700,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19821_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2350380,
+      "byte_length": 720
+    },
+    {
+      "material": "ID1983__lt__objekt",
+      "vertex_format": "V3F",
+      "byte_offset": 2351100,
+      "byte_length": 2736
+    },
+    {
+      "material": "ID1983__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2353836,
+      "byte_length": 43860
+    },
+    {
+      "material": "ID1983__lt__objekt_1_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2397696,
+      "byte_length": 8280
+    },
+    {
+      "material": "ID19840_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2405976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19840_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2406696,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19840_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2408616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19840_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2409336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19840_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2410056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19840_Ablak_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2410776,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19840_Ablak_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2412696,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID19840_Ablak_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2414376,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19874_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2416296,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19874_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2417496,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19874_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2419416,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19874_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2421336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19874_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2422056,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19918_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2423256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19918_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2423976,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19918_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2425896,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19918_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2427816,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19918_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2429016,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19990_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2430216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID19990_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2430936,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19990_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2432856,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID19990_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2434776,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID19990_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2435976,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID1_Tet",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2437176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20047_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2437896,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20047_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2439096,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20047_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2440296,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20047_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2442216,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20047_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2444136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20048__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2444856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20048__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2445576,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID20048__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2448216,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID20049_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2452776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20049_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2453496,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID20049_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2455176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20091_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2455896,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20091_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2457816,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20091_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2459016,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20091_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2460216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20131_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2460936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20131_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2461656,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20131_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2462376,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20131_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2464296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20131_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2465016,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20131_Ablak_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2466936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20131_Ablak_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2467656,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20131_Ablak_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2469576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20131_Ablak_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2470296,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20131_Ablak_9",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2472216,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID20138_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2473896,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20138_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2475816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20138_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2476536,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20138_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2477736,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20140__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2478936,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID20140__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2494296,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID20178_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2497896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20178_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2498616,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20178_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2499816,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20178_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2501016,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20189__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2502936,
+      "byte_length": 6720
+    },
+    {
+      "material": "ID20189__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2509656,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID20206_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2516616,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20206_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2517816,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20206_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2519016,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20206_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2520936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20208_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2521656,
+      "byte_length": 240
+    },
+    {
+      "material": "ID20208_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2521896,
+      "byte_length": 480
+    },
+    {
+      "material": "ID20251__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2522376,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID20251__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2537736,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID20253_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2541336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20253_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2542056,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID20266_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2543736,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20266_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2544936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20266_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2545656,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20266_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2547576,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20271_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2548776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20271_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2549496,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20271_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2550696,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20271_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2551896,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20271_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2553816,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20272__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2555736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20272__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2556456,
+      "byte_length": 7680
+    },
+    {
+      "material": "ID20272__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2564136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20272__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2564856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20274_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2565576,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID20274_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2567256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20291_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2567976,
+      "byte_length": 480
+    },
+    {
+      "material": "ID20291_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2568456,
+      "byte_length": 240
+    },
+    {
+      "material": "ID20292__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2568696,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID20292__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2572296,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID20310__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2587656,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID20310__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2591256,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID20321_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2606616,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20321_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2606976,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20492__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2607336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20492__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2608056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20492__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2608776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20492__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2609496,
+      "byte_length": 7680
+    },
+    {
+      "material": "ID20544_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2617176,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20544_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2617536,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20604__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2617896,
+      "byte_length": 336120
+    },
+    {
+      "material": "ID20621_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2954016,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20621_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2954376,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20683_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2954736,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID20683_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2956416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20769_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2957136,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20769_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2958336,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20769_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2959536,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20769_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2961456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20777_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2962176,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20777_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2962536,
+      "byte_length": 360
+    },
+    {
+      "material": "ID20941_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2962896,
+      "byte_length": 480
+    },
+    {
+      "material": "ID20941_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2963376,
+      "byte_length": 240
+    },
+    {
+      "material": "ID20947_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2963616,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20947_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2964816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20981_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2965536,
+      "byte_length": 1080
+    },
+    {
+      "material": "ID20981_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2966616,
+      "byte_length": 1560
+    },
+    {
+      "material": "ID20989_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2968176,
+      "byte_length": 960
+    },
+    {
+      "material": "ID20989_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2969136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID20994__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2969856,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID20994__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2976816,
+      "byte_length": 6720
+    },
+    {
+      "material": "ID20_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2983536,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2984736,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2986656,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID20_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2988576,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID20_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2989776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21010_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2990496,
+      "byte_length": 600
+    },
+    {
+      "material": "ID21010_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2991096,
+      "byte_length": 1080
+    },
+    {
+      "material": "ID21012_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2992176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21012_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2992896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21055__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2993616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21055__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2994336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21055__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2995056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21063_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2995776,
+      "byte_length": 600
+    },
+    {
+      "material": "ID21063_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2996376,
+      "byte_length": 1080
+    },
+    {
+      "material": "ID21138_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2997456,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID21138_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 2999136,
+      "byte_length": 2400
+    },
+    {
+      "material": "ID21138_Fal_1_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3001536,
+      "byte_length": 2400
+    },
+    {
+      "material": "ID21138_Fal_1_1_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3003936,
+      "byte_length": 4920
+    },
+    {
+      "material": "ID21160_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3008856,
+      "byte_length": 2520
+    },
+    {
+      "material": "ID21160_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3011376,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID21163_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3013056,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID21163_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3017856,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID21168_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3020736,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21168_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3022656,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID21168_Fal_1_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3026256,
+      "byte_length": 1320
+    },
+    {
+      "material": "ID21168_Fal_1_1_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3027576,
+      "byte_length": 1560
+    },
+    {
+      "material": "ID21197_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3029136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21197_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3029856,
+      "byte_length": 960
+    },
+    {
+      "material": "ID21220_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3030816,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID21220_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3032496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21293_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3033216,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID21293_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3034896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21293_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3035616,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21293_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3037536,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21293_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3039456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21293_Ablak_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3040176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21293_Ablak_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3040896,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21293_Ablak_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3042816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21361_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3043536,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21361_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3045456,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID21361_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3046656,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID21361_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3047856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21430_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3048576,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID21430_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3049776,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID21430_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3050976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21430_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3051696,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21430_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3053616,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21432_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3055536,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID21432_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3056736,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID21432_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3057936,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21432_Ablak_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3059856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21432_Ablak_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3060576,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21434__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3062496,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID21434__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3067296,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID21434__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3072096,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID21434__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3076896,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID21451__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3081696,
+      "byte_length": 275640
+    },
+    {
+      "material": "ID21451__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3357336,
+      "byte_length": 600000
+    },
+    {
+      "material": "ID21497__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3957336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3958056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3958776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3959496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3960216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3960936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3961656,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3962376,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21497__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3963096,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3963816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3964536,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3965256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3965976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3966696,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3967416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3968136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3968856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21500__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3969576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3970296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3971016,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3971736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3972456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3973176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3973896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3974616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3975336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21503__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3976056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3976776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3977496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3978216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3978936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3979656,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3980376,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3981096,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3981816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21506__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3982536,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3983256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3983976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3984696,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3985416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3986136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3986856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3987576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3988296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21509__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3989016,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3989736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3990456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3991176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3991896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3992616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3993336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3994056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3994776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21512__lt__objek_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3995496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3996216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 3996936,
+      "byte_length": 13140
+    },
+    {
+      "material": "ID21615_L_pcs__02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4010076,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4010796,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4011516,
+      "byte_length": 960
+    },
+    {
+      "material": "ID21615_L_pcs__05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4012476,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4013196,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4013916,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4014636,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4015356,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4016076,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4016796,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__12",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4017516,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__13",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4018236,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__14",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4018956,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__15",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4019676,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__16",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4020396,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21615_L_pcs__17",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4021116,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4021836,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID21_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4023756,
+      "byte_length": 720
+    },
+    {
+      "material": "ID21_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4024476,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID220_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4026396,
+      "byte_length": 720
+    },
+    {
+      "material": "ID220_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4027116,
+      "byte_length": 2160
+    },
+    {
+      "material": "ID225_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4029276,
+      "byte_length": 720
+    },
+    {
+      "material": "ID238__lt__objektu",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4029996,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID238__lt__objektu_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4063716,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID238__lt__objektu_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4188096,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID243786__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4190736,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID243786__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4224456,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID243786__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4348836,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID245__lt__objektu",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4351476,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID245__lt__objektu_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4356276,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID245__lt__objektu_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4361076,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID245__lt__objektu_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4365876,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID254_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4370676,
+      "byte_length": 960
+    },
+    {
+      "material": "ID254_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4371636,
+      "byte_length": 720
+    },
+    {
+      "material": "ID257_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4372356,
+      "byte_length": 720
+    },
+    {
+      "material": "ID260__lt__objektu",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4373076,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID260__lt__objektu_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4406796,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID260__lt__objektu_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4531176,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID2640__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4533816,
+      "byte_length": 6720
+    },
+    {
+      "material": "ID2640__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4540536,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID274_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4547496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID286_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4548216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID29_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4548936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3027_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4549656,
+      "byte_length": 480
+    },
+    {
+      "material": "ID3027_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4550136,
+      "byte_length": 240
+    },
+    {
+      "material": "ID3036_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4550376,
+      "byte_length": 840
+    },
+    {
+      "material": "ID3036_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4551216,
+      "byte_length": 600
+    },
+    {
+      "material": "ID30_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4551816,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID30_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4553736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID30_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4554456,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID3153__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4556376,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID3153__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4559016,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID3153__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4560696,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID3153__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4562376,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3153__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4563096,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID3153__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4565736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID32_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4566456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3375__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4567176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3375__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4567896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3375__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4568616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3375__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4569336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3375__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4570056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3377__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4570776,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID3377__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4572456,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID3377__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4575096,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3377__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4575816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3377__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4576536,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID3377__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4579176,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID33_Tet",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4580856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4581576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4582296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4583016,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4583736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4584456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4585176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4585896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4586616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3411__lt__objekt_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4587336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID3427__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4588056,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID34_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4592856,
+      "byte_length": 7320
+    },
+    {
+      "material": "ID34_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4600176,
+      "byte_length": 6720
+    },
+    {
+      "material": "ID354599__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4606896,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID354599__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4640616,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID354599__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4765176,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID354602_Tet",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4767816,
+      "byte_length": 120
+    },
+    {
+      "material": "ID354602_Tet__1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4767936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID354602_Tet__1_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4768656,
+      "byte_length": 120
+    },
+    {
+      "material": "ID354602_Tet__2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4768776,
+      "byte_length": 480
+    },
+    {
+      "material": "ID354602_Tet__2_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4769256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID354602_Tet__3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4769976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID354602_Tet__4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4770696,
+      "byte_length": 720
+    },
+    {
+      "material": "ID354602_Tet__5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4771416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID354602_Tet__6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4772136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID354603__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4772856,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID354603__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4806576,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID354603__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4930956,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID354607_F_d_m",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4933596,
+      "byte_length": 2760
+    },
+    {
+      "material": "ID354607_F_d_m_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4936356,
+      "byte_length": 840
+    },
+    {
+      "material": "ID354622__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4937196,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID354622__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4952556,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID354629__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4956156,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID354629__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4959756,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID354636__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4975116,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID354636__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4978716,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID354643__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4994076,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID354643__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 4997676,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID354650__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5013036,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID354650__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5028396,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID354657__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5031996,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID354657__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5035596,
+      "byte_length": 15360
+    },
+    {
+      "material": "ID354664__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5050956,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID354664__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5084676,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID354664__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5209236,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID355934__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5211876,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID355934__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5245596,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID355934__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5370156,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID357204__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5372796,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID357204__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5406516,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID357204__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5531076,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID358474__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5533716,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID358474__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5567436,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID358474__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5691996,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID361218_Tet",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5694636,
+      "byte_length": 720
+    },
+    {
+      "material": "ID363549__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5695356,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID363549__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5729076,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID363549__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5853456,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID364819__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5856096,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID364819__lt__obje_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 5889816,
+      "byte_length": 124380
+    },
+    {
+      "material": "ID364819__lt__obje_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6014196,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID390297_Tet",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6016836,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6017556,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6018276,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6018996,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6019716,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6020436,
+      "byte_length": 120
+    },
+    {
+      "material": "ID390297_Tet__06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6020556,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6021276,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6021996,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6022716,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6023436,
+      "byte_length": 120
+    },
+    {
+      "material": "ID390297_Tet__10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6023556,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6024276,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__12",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6024996,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__13",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6025716,
+      "byte_length": 720
+    },
+    {
+      "material": "ID390297_Tet__2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6026436,
+      "byte_length": 480
+    },
+    {
+      "material": "ID394730__lt__obje",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6026916,
+      "byte_length": 31620
+    },
+    {
+      "material": "ID394730__lt__obje_01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6058536,
+      "byte_length": 12960
+    },
+    {
+      "material": "ID394730__lt__obje_02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6071496,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID394730__lt__obje_03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6075576,
+      "byte_length": 7440
+    },
+    {
+      "material": "ID394730__lt__obje_04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6083016,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID394730__lt__obje_05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6094536,
+      "byte_length": 960
+    },
+    {
+      "material": "ID394730__lt__obje_06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6095496,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID394730__lt__obje_07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6098736,
+      "byte_length": 3840
+    },
+    {
+      "material": "ID394730__lt__obje_08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6102576,
+      "byte_length": 10800
+    },
+    {
+      "material": "ID394730__lt__obje_09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6113376,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID394730__lt__obje_10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6117936,
+      "byte_length": 12960
+    },
+    {
+      "material": "ID394730__lt__obje_11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6130896,
+      "byte_length": 8640
+    },
+    {
+      "material": "ID394730__lt__obje_12",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6139536,
+      "byte_length": 24120
+    },
+    {
+      "material": "ID394730__lt__obje_13",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6163656,
+      "byte_length": 8400
+    },
+    {
+      "material": "ID394730__lt__obje_14",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6172056,
+      "byte_length": 23400
+    },
+    {
+      "material": "ID394730__lt__obje_15",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6195456,
+      "byte_length": 7200
+    },
+    {
+      "material": "ID394730__lt__obje_16",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6202656,
+      "byte_length": 20160
+    },
+    {
+      "material": "ID394730__lt__obje_17",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6222816,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID394730__lt__obje_18",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6224736,
+      "byte_length": 5760
+    },
+    {
+      "material": "ID394730__lt__obje_19",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6230496,
+      "byte_length": 6240
+    },
+    {
+      "material": "ID394730__lt__obje_20",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6236736,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID394730__lt__obje_21",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6241296,
+      "byte_length": 19440
+    },
+    {
+      "material": "ID394730__lt__obje_22",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6260736,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID394730__lt__obje_23",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6267696,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID394730__lt__obje_24",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6279216,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID394730__lt__obje_25",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6283296,
+      "byte_length": 39060
+    },
+    {
+      "material": "ID394730__lt__obje_26",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6322356,
+      "byte_length": 5520
+    },
+    {
+      "material": "ID394730__lt__obje_27",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6327876,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID394730__lt__obje_28",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6339396,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID394730__lt__obje_29",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6343476,
+      "byte_length": 25560
+    },
+    {
+      "material": "ID394730__lt__obje_30",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6369036,
+      "byte_length": 9120
+    },
+    {
+      "material": "ID394730__lt__obje_31",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6378156,
+      "byte_length": 19440
+    },
+    {
+      "material": "ID394730__lt__obje_32",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6397596,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID394730__lt__obje_33",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6404556,
+      "byte_length": 8280
+    },
+    {
+      "material": "ID394730__lt__obje_34",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6412836,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID394730__lt__obje_35",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6415716,
+      "byte_length": 13680
+    },
+    {
+      "material": "ID394730__lt__obje_36",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6429396,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID394730__lt__obje_37",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6434196,
+      "byte_length": 14400
+    },
+    {
+      "material": "ID394730__lt__obje_38",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6448596,
+      "byte_length": 5040
+    },
+    {
+      "material": "ID394730__lt__obje_39",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6453636,
+      "byte_length": 81360
+    },
+    {
+      "material": "ID394730__lt__obje_40",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6534996,
+      "byte_length": 23040
+    },
+    {
+      "material": "ID394730__lt__obje_41",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6558036,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID394730__lt__obje_42",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6569556,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID394730__lt__obje_43",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6573636,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID394730__lt__obje_44",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6576876,
+      "byte_length": 960
+    },
+    {
+      "material": "ID394730__lt__obje_45",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6577836,
+      "byte_length": 9000
+    },
+    {
+      "material": "ID394730__lt__obje_46",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6586836,
+      "byte_length": 3120
+    },
+    {
+      "material": "ID394730__lt__obje_47",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6589956,
+      "byte_length": 137640
+    },
+    {
+      "material": "ID394730__lt__obje_48",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6727596,
+      "byte_length": 42000
+    },
+    {
+      "material": "ID394730__lt__obje_49",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6769596,
+      "byte_length": 15840
+    },
+    {
+      "material": "ID394730__lt__obje_50",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6785436,
+      "byte_length": 5520
+    },
+    {
+      "material": "ID394730__lt__obje_51",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6790956,
+      "byte_length": 12960
+    },
+    {
+      "material": "ID394730__lt__obje_52",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6803916,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID394730__lt__obje_53",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6808476,
+      "byte_length": 23760
+    },
+    {
+      "material": "ID394730__lt__obje_54",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6832236,
+      "byte_length": 8400
+    },
+    {
+      "material": "ID394730__lt__obje_55",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6840636,
+      "byte_length": 23400
+    },
+    {
+      "material": "ID394730__lt__obje_56",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6864036,
+      "byte_length": 8400
+    },
+    {
+      "material": "ID394730__lt__obje_57",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6872436,
+      "byte_length": 8280
+    },
+    {
+      "material": "ID394730__lt__obje_58",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6880716,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID394730__lt__obje_59",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6883596,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID394730__lt__obje_60",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6895116,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID394730__lt__obje_61",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6899196,
+      "byte_length": 10440
+    },
+    {
+      "material": "ID394730__lt__obje_62",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6909636,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID394730__lt__obje_63",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6913236,
+      "byte_length": 10440
+    },
+    {
+      "material": "ID394730__lt__obje_64",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6923676,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID394730__lt__obje_65",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6927276,
+      "byte_length": 21960
+    },
+    {
+      "material": "ID394730__lt__obje_66",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6949236,
+      "byte_length": 7920
+    },
+    {
+      "material": "ID394730__lt__obje_67",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6957156,
+      "byte_length": 12240
+    },
+    {
+      "material": "ID394730__lt__obje_68",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6969396,
+      "byte_length": 4320
+    },
+    {
+      "material": "ID394730__lt__obje_69",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6973716,
+      "byte_length": 14400
+    },
+    {
+      "material": "ID394730__lt__obje_70",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6988116,
+      "byte_length": 5040
+    },
+    {
+      "material": "ID394730__lt__obje_71",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 6993156,
+      "byte_length": 20520
+    },
+    {
+      "material": "ID394730__lt__obje_72",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7013676,
+      "byte_length": 2400
+    },
+    {
+      "material": "ID394730__lt__obje_73",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7016076,
+      "byte_length": 720
+    },
+    {
+      "material": "ID394730__lt__obje_74",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7016796,
+      "byte_length": 17640
+    },
+    {
+      "material": "ID394730__lt__obje_75",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7034436,
+      "byte_length": 6720
+    },
+    {
+      "material": "ID394730__lt__obje_76",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7041156,
+      "byte_length": 18720
+    },
+    {
+      "material": "ID394730__lt__obje_77",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7059876,
+      "byte_length": 960
+    },
+    {
+      "material": "ID394730__lt__obje_78",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7060836,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID394730__lt__obje_79",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7064076,
+      "byte_length": 2160
+    },
+    {
+      "material": "ID394730__lt__obje_80",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7066236,
+      "byte_length": 6480
+    },
+    {
+      "material": "ID394730__lt__obje_81",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7072716,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID394730__lt__obje_82",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7076316,
+      "byte_length": 10080
+    },
+    {
+      "material": "ID394730__lt__obje_83",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7086396,
+      "byte_length": 3840
+    },
+    {
+      "material": "ID394730__lt__obje_84",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7090236,
+      "byte_length": 10800
+    },
+    {
+      "material": "ID394730__lt__obje_85",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7101036,
+      "byte_length": 3120
+    },
+    {
+      "material": "ID394730__lt__obje_86",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7104156,
+      "byte_length": 9000
+    },
+    {
+      "material": "ID394730__lt__obje_87",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7113156,
+      "byte_length": 240
+    },
+    {
+      "material": "ID394730__lt__obje_88",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7113396,
+      "byte_length": 720
+    },
+    {
+      "material": "ID394730__lt__obje_89",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7114116,
+      "byte_length": 240
+    },
+    {
+      "material": "ID394730__lt__obje_90",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7114356,
+      "byte_length": 720
+    },
+    {
+      "material": "ID394730__lt__obje_91",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7115076,
+      "byte_length": 240
+    },
+    {
+      "material": "ID430_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7115316,
+      "byte_length": 360
+    },
+    {
+      "material": "ID430_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7115676,
+      "byte_length": 1560
+    },
+    {
+      "material": "ID43_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7117236,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7117956,
+      "byte_length": 11700
+    },
+    {
+      "material": "ID44014_L_pcs__01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7129656,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7130376,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7131096,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7131816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7132536,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7133256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7133976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7134696,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7135416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7136136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7136856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__12",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7137576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__13",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7138296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__14",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7139016,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__15",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7139736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__16",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7140456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__17",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7141176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__18",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7141896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44014_L_pcs__19",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7142616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID44_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7143336,
+      "byte_length": 480
+    },
+    {
+      "material": "ID44_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7143816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID46_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7144536,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7145256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7145976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7146696,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7147416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7148136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7148856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7149576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7150296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4704__lt__objekt_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7151016,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7151736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7152456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7153176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7153896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7154616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7155336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7156056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7156776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4719__lt__objekt_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7157496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7158216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7158936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7159656,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7160376,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7161096,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7161816,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7162536,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7163256,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4722__lt__objekt_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7163976,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7164696,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7165416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7166136,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7166856,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7167576,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7168296,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7169016,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7169736,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4725__lt__objekt_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7170456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7171176,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7171896,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7172616,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_3",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7173336,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_4",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7174056,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_5",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7174776,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_6",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7175496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_7",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7176216,
+      "byte_length": 720
+    },
+    {
+      "material": "ID4728__lt__objekt_8",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7176936,
+      "byte_length": 720
+    },
+    {
+      "material": "ID491_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7177656,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID491_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7179576,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID491_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7181496,
+      "byte_length": 720
+    },
+    {
+      "material": "ID498934_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7182216,
+      "byte_length": 12660
+    },
+    {
+      "material": "ID498934_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7194876,
+      "byte_length": 7680
+    },
+    {
+      "material": "ID498947_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7202556,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID498947_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7205436,
+      "byte_length": 5040
+    },
+    {
+      "material": "ID498963_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7210476,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID498963_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7212156,
+      "byte_length": 2520
+    },
+    {
+      "material": "ID498979_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7214676,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID498979_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7217316,
+      "byte_length": 1680
+    },
+    {
+      "material": "ID49_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7218996,
+      "byte_length": 720
+    },
+    {
+      "material": "ID531_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7219716,
+      "byte_length": 720
+    },
+    {
+      "material": "ID544_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7220436,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID544_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7222356,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID544_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7224276,
+      "byte_length": 720
+    },
+    {
+      "material": "ID562_F_d_m",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7224996,
+      "byte_length": 1440
+    },
+    {
+      "material": "ID562_F_d_m_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7226436,
+      "byte_length": 1200
+    },
+    {
+      "material": "ID584_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7227636,
+      "byte_length": 720
+    },
+    {
+      "material": "ID584_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7228356,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID584_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7230276,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID587_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7232196,
+      "byte_length": 480
+    },
+    {
+      "material": "ID587_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7232676,
+      "byte_length": 240
+    },
+    {
+      "material": "ID621_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7232916,
+      "byte_length": 720
+    },
+    {
+      "material": "ID624_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7233636,
+      "byte_length": 480
+    },
+    {
+      "material": "ID624_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7234116,
+      "byte_length": 240
+    },
+    {
+      "material": "ID6337__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7234356,
+      "byte_length": 156840
+    },
+    {
+      "material": "ID6445__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7391196,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID6445__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7424916,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID6445__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7549476,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID6559__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7552116,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID6559__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7585836,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID6559__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7710396,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID672_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7713036,
+      "byte_length": 720
+    },
+    {
+      "material": "ID702_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7713756,
+      "byte_length": 720
+    },
+    {
+      "material": "ID7715__lt__objekt",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7714476,
+      "byte_length": 33720
+    },
+    {
+      "material": "ID7715__lt__objekt_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7748196,
+      "byte_length": 124560
+    },
+    {
+      "material": "ID7715__lt__objekt_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7872756,
+      "byte_length": 2640
+    },
+    {
+      "material": "ID83_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7875396,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID83_Fal_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7878636,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID854_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7881516,
+      "byte_length": 720
+    },
+    {
+      "material": "ID861_Oszlop",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7882236,
+      "byte_length": 720
+    },
+    {
+      "material": "ID892_Fal",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7882956,
+      "byte_length": 720
+    },
+    {
+      "material": "ID9194_F_d_m",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7883676,
+      "byte_length": 720
+    },
+    {
+      "material": "ID9199_L_pcs",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7884396,
+      "byte_length": 9300
+    },
+    {
+      "material": "ID96053__lt__objek",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7893696,
+      "byte_length": 960
+    },
+    {
+      "material": "ID96053__lt__objek_01",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7894656,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID96053__lt__objek_02",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7897896,
+      "byte_length": 3840
+    },
+    {
+      "material": "ID96053__lt__objek_03",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7901736,
+      "byte_length": 10800
+    },
+    {
+      "material": "ID96053__lt__objek_04",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7912536,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID96053__lt__objek_05",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7917096,
+      "byte_length": 12960
+    },
+    {
+      "material": "ID96053__lt__objek_06",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7930056,
+      "byte_length": 8640
+    },
+    {
+      "material": "ID96053__lt__objek_07",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7938696,
+      "byte_length": 24120
+    },
+    {
+      "material": "ID96053__lt__objek_08",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7962816,
+      "byte_length": 8400
+    },
+    {
+      "material": "ID96053__lt__objek_09",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7971216,
+      "byte_length": 23400
+    },
+    {
+      "material": "ID96053__lt__objek_10",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 7994616,
+      "byte_length": 7200
+    },
+    {
+      "material": "ID96053__lt__objek_11",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8001816,
+      "byte_length": 20160
+    },
+    {
+      "material": "ID96053__lt__objek_12",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8021976,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID96053__lt__objek_13",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8023896,
+      "byte_length": 5760
+    },
+    {
+      "material": "ID96053__lt__objek_14",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8029656,
+      "byte_length": 6240
+    },
+    {
+      "material": "ID96053__lt__objek_15",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8035896,
+      "byte_length": 17640
+    },
+    {
+      "material": "ID96053__lt__objek_16",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8053536,
+      "byte_length": 7440
+    },
+    {
+      "material": "ID96053__lt__objek_17",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8060976,
+      "byte_length": 20520
+    },
+    {
+      "material": "ID96053__lt__objek_18",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8081496,
+      "byte_length": 6720
+    },
+    {
+      "material": "ID96053__lt__objek_19",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8088216,
+      "byte_length": 18720
+    },
+    {
+      "material": "ID96053__lt__objek_20",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8106936,
+      "byte_length": 960
+    },
+    {
+      "material": "ID96053__lt__objek_21",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8107896,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID96053__lt__objek_22",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8111136,
+      "byte_length": 2160
+    },
+    {
+      "material": "ID96053__lt__objek_23",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8113296,
+      "byte_length": 6480
+    },
+    {
+      "material": "ID96053__lt__objek_24",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8119776,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID96053__lt__objek_25",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8123376,
+      "byte_length": 10080
+    },
+    {
+      "material": "ID96053__lt__objek_26",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8133456,
+      "byte_length": 3840
+    },
+    {
+      "material": "ID96053__lt__objek_27",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8137296,
+      "byte_length": 10800
+    },
+    {
+      "material": "ID96053__lt__objek_28",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8148096,
+      "byte_length": 3120
+    },
+    {
+      "material": "ID96053__lt__objek_29",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8151216,
+      "byte_length": 9000
+    },
+    {
+      "material": "ID96053__lt__objek_30",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8160216,
+      "byte_length": 240
+    },
+    {
+      "material": "ID96053__lt__objek_31",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8160456,
+      "byte_length": 720
+    },
+    {
+      "material": "ID96053__lt__objek_32",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8161176,
+      "byte_length": 240
+    },
+    {
+      "material": "ID96053__lt__objek_33",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8161416,
+      "byte_length": 720
+    },
+    {
+      "material": "ID96053__lt__objek_34",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8162136,
+      "byte_length": 240
+    },
+    {
+      "material": "ID96053__lt__objek_35",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8162376,
+      "byte_length": 720
+    },
+    {
+      "material": "ID96053__lt__objek_36",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8163096,
+      "byte_length": 2400
+    },
+    {
+      "material": "ID96053__lt__objek_37",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8165496,
+      "byte_length": 31620
+    },
+    {
+      "material": "ID96053__lt__objek_38",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8197116,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID96053__lt__objek_39",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8208636,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID96053__lt__objek_40",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8212716,
+      "byte_length": 12960
+    },
+    {
+      "material": "ID96053__lt__objek_41",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8225676,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID96053__lt__objek_42",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8230236,
+      "byte_length": 19440
+    },
+    {
+      "material": "ID96053__lt__objek_43",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8249676,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID96053__lt__objek_44",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8256636,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID96053__lt__objek_45",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8268156,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID96053__lt__objek_46",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8272236,
+      "byte_length": 39060
+    },
+    {
+      "material": "ID96053__lt__objek_47",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8311296,
+      "byte_length": 5520
+    },
+    {
+      "material": "ID96053__lt__objek_48",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8316816,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID96053__lt__objek_49",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8328336,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID96053__lt__objek_50",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8332416,
+      "byte_length": 9120
+    },
+    {
+      "material": "ID96053__lt__objek_51",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8341536,
+      "byte_length": 19440
+    },
+    {
+      "material": "ID96053__lt__objek_52",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8360976,
+      "byte_length": 6960
+    },
+    {
+      "material": "ID96053__lt__objek_53",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8367936,
+      "byte_length": 8280
+    },
+    {
+      "material": "ID96053__lt__objek_54",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8376216,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID96053__lt__objek_55",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8379096,
+      "byte_length": 13680
+    },
+    {
+      "material": "ID96053__lt__objek_56",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8392776,
+      "byte_length": 4800
+    },
+    {
+      "material": "ID96053__lt__objek_57",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8397576,
+      "byte_length": 14400
+    },
+    {
+      "material": "ID96053__lt__objek_58",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8411976,
+      "byte_length": 81360
+    },
+    {
+      "material": "ID96053__lt__objek_59",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8493336,
+      "byte_length": 23040
+    },
+    {
+      "material": "ID96053__lt__objek_60",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8516376,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID96053__lt__objek_61",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8527896,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID96053__lt__objek_62",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8531976,
+      "byte_length": 3240
+    },
+    {
+      "material": "ID96053__lt__objek_63",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8535216,
+      "byte_length": 960
+    },
+    {
+      "material": "ID96053__lt__objek_64",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8536176,
+      "byte_length": 9000
+    },
+    {
+      "material": "ID96053__lt__objek_65",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8545176,
+      "byte_length": 3120
+    },
+    {
+      "material": "ID96053__lt__objek_66",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8548296,
+      "byte_length": 137640
+    },
+    {
+      "material": "ID96053__lt__objek_67",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8685936,
+      "byte_length": 42000
+    },
+    {
+      "material": "ID96053__lt__objek_68",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8727936,
+      "byte_length": 15840
+    },
+    {
+      "material": "ID96053__lt__objek_69",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8743776,
+      "byte_length": 5520
+    },
+    {
+      "material": "ID96053__lt__objek_70",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8749296,
+      "byte_length": 12960
+    },
+    {
+      "material": "ID96053__lt__objek_71",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8762256,
+      "byte_length": 4560
+    },
+    {
+      "material": "ID96053__lt__objek_72",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8766816,
+      "byte_length": 23760
+    },
+    {
+      "material": "ID96053__lt__objek_73",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8790576,
+      "byte_length": 8400
+    },
+    {
+      "material": "ID96053__lt__objek_74",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8798976,
+      "byte_length": 23400
+    },
+    {
+      "material": "ID96053__lt__objek_75",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8822376,
+      "byte_length": 8400
+    },
+    {
+      "material": "ID96053__lt__objek_76",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8830776,
+      "byte_length": 8280
+    },
+    {
+      "material": "ID96053__lt__objek_77",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8839056,
+      "byte_length": 2880
+    },
+    {
+      "material": "ID96053__lt__objek_78",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8841936,
+      "byte_length": 11520
+    },
+    {
+      "material": "ID96053__lt__objek_79",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8853456,
+      "byte_length": 4080
+    },
+    {
+      "material": "ID96053__lt__objek_80",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8857536,
+      "byte_length": 10440
+    },
+    {
+      "material": "ID96053__lt__objek_81",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8867976,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID96053__lt__objek_82",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8871576,
+      "byte_length": 10440
+    },
+    {
+      "material": "ID96053__lt__objek_83",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8882016,
+      "byte_length": 3600
+    },
+    {
+      "material": "ID96053__lt__objek_84",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8885616,
+      "byte_length": 21960
+    },
+    {
+      "material": "ID96053__lt__objek_85",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8907576,
+      "byte_length": 7920
+    },
+    {
+      "material": "ID96053__lt__objek_86",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8915496,
+      "byte_length": 12240
+    },
+    {
+      "material": "ID96053__lt__objek_87",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8927736,
+      "byte_length": 4320
+    },
+    {
+      "material": "ID96053__lt__objek_88",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8932056,
+      "byte_length": 14400
+    },
+    {
+      "material": "ID96053__lt__objek_89",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8946456,
+      "byte_length": 5040
+    },
+    {
+      "material": "ID96053__lt__objek_90",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8951496,
+      "byte_length": 5040
+    },
+    {
+      "material": "ID96053__lt__objek_91",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8956536,
+      "byte_length": 25560
+    },
+    {
+      "material": "ID9_Ablak",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8982096,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID9_Ablak_1",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8984016,
+      "byte_length": 1920
+    },
+    {
+      "material": "ID9_Ablak_2",
+      "vertex_format": "T2F_V3F",
+      "byte_offset": 8985936,
+      "byte_length": 720
+    }
+  ]
+}

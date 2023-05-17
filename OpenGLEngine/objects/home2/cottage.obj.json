@@ -1,0 +1,141 @@
+{
+  "created_at": "2023-04-15T21:46:21.548915",
+  "version": "0.1",
+  "mtllibs": [
+    "cottage.mtl"
+  ],
+  "vertex_buffers": [
+    {
+      "material": "band",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 0,
+      "byte_length": 1002240
+    },
+    {
+      "material": "eimerboden",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 1002240,
+      "byte_length": 48384
+    },
+    {
+      "material": "henkelahlter",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 1050624,
+      "byte_length": 119808
+    },
+    {
+      "material": "henkel",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 1170432,
+      "byte_length": 872448
+    },
+    {
+      "material": "eimer",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 2042880,
+      "byte_length": 603264
+    },
+    {
+      "material": "niete",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 2646144,
+      "byte_length": 129024
+    },
+    {
+      "material": "nagel",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 2775168,
+      "byte_length": 64512
+    },
+    {
+      "material": "stones",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 2839680,
+      "byte_length": 12830784
+    },
+    {
+      "material": "wall",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15670464,
+      "byte_length": 11136
+    },
+    {
+      "material": "wheel2",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15681600,
+      "byte_length": 288
+    },
+    {
+      "material": "door2",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15681888,
+      "byte_length": 21120
+    },
+    {
+      "material": "door",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15703008,
+      "byte_length": 74976
+    },
+    {
+      "material": "door_met",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15777984,
+      "byte_length": 151104
+    },
+    {
+      "material": "window1",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15929088,
+      "byte_length": 1536
+    },
+    {
+      "material": "wheel3",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15930624,
+      "byte_length": 39456
+    },
+    {
+      "material": "wheel",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 15970080,
+      "byte_length": 665280
+    },
+    {
+      "material": "wheel_met",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 16635360,
+      "byte_length": 36864
+    },
+    {
+      "material": "roof2",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 16672224,
+      "byte_length": 22656
+    },
+    {
+      "material": "roof",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 16694880,
+      "byte_length": 29760
+    },
+    {
+      "material": "roof_",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 16724640,
+      "byte_length": 15744
+    },
+    {
+      "material": "gruenzeug",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 16740384,
+      "byte_length": 466944
+    },
+    {
+      "material": "bretter",
+      "vertex_format": "T2F_N3F_V3F",
+      "byte_offset": 17207328,
+      "byte_length": 123264
+    }
+  ]
+}
