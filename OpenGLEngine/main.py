@@ -15,7 +15,7 @@ import cv2
 
 
 class GraphicsEngine:
-    def __init__(self, win_size=(1280, 720)):
+    def __init__(self, win_size=(1920, 1080)):
         # init pygame modules
         pg.init()
         # window size
@@ -82,10 +82,10 @@ class GraphicsEngine:
         intrinsic_camera = np.array(((933.15867, 0, 657.59), (0, 933.1586, 400.36993), (0, 0, 1)))
         distortion = np.array((-0.0, 0.0, 0, 0))
         cap = cv2.VideoCapture(0)
-        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
-        cap.set(3, 1280)
-        cap.set(4, 720)
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
+        cap.set(3, 1920)
+        cap.set(4, 1080)
         ARUCO_DICT = {
             "DICT_4X4_50": cv2.aruco.DICT_4X4_50,
             "DICT_4X4_100": cv2.aruco.DICT_4X4_100,
@@ -120,8 +120,8 @@ class GraphicsEngine:
             ret, frame = cap.read()
             frame, eulerAngles, tvec = pose_estimation(frame, ARUCO_DICT[aruco_type], intrinsic_camera, distortion)
 
-            cap.set(3, 1280.0)
-            cap.set(4, 720.0)
+            cap.set(3, 1920.0)
+            cap.set(4, 1080.0)
 
 
 
@@ -141,35 +141,34 @@ class GraphicsEngine:
             #    f.write(str(name))
             # f.close()
 
-            self.pixels = cv2.resize(self.pixels, (1280, 720))
+            self.pixels = cv2.resize(self.pixels, (1920, 1080))
 
             # convert to OpenCV format
             image = cv2.cvtColor(self.pixels, cv2.COLOR_RGBA2BGRA)
             image = cv2.flip(image, 0)
 
-            #b, g, r, alpha = cv2.split(image)
-            #alpha = alpha.astype(float) / 255
-            #alpha = alpha.astype(b.dtype)
-            #b = cv2.multiply(alpha, b)
-            #g = cv2.multiply(alpha, g)
-            #r = cv2.multiply(alpha, r)
-            #image = cv2.merge([b, g, r])
+            b, g, r, alpha = cv2.split(image)
+            alpha = alpha.astype(float) / 255
+            alpha = alpha.astype(b.dtype)
+            b = cv2.multiply(alpha, b)
+            g = cv2.multiply(alpha, g)
+            r = cv2.multiply(alpha, r)
+            image = cv2.merge([b, g, r])
 
-            #b, g, r = cv2.split(frame)
-            #b = cv2.multiply(1 - alpha, b)
-            #g = cv2.multiply(1 - alpha, g)
-            #r = cv2.multiply(1 - alpha, r)
-            #frame = cv2.merge([b, g, r])
+            b, g, r = cv2.split(frame)
+            b = cv2.multiply(1 - alpha, b)
+            g = cv2.multiply(1 - alpha, g)
+            r = cv2.multiply(1 - alpha, r)
+            frame = cv2.merge([b, g, r])
 
             # Convert the ModernGL context to an OpenCV image
-            #outImg = cv2.convertScaleAbs(cv2.addWeighted(image, 1, frame, 1, 0))
-            # outImg = cv2.addWeighted(frame, 1, image, 1, 0)
+            outImg = cv2.convertScaleAbs(cv2.addWeighted(image, 1, frame, 1, 0))
+            #outImg = cv2.addWeighted(frame, 1, image, 1, 0)
 
             # Display the resulting image
 
-            image = cv2.rotate(image, cv2.ROTATE_90_COUNTERCLOCKWISE)
-            cv2.imshow('AR', image)
-            cv2.imshow('Camera', frame)
+
+            cv2.imshow('AR', outImg)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
 

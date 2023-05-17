@@ -160,8 +160,8 @@ distortionMemory = np.array((-0.0, 0.0, 0, 0))
 cap = cv2.VideoCapture(0)
 # cap = cv2.VideoCapture('vid.mp4')
 
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
 while cap.isOpened():
     break;
