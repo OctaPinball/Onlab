@@ -75,9 +75,28 @@ def rotationMatrixToEulerAngles(R):
         y = math.atan2(-R[2, 0], sy)
         z = 0
 
+    x += 180
     x = x * 180 / np.pi
     y = y * 180 / np.pi
     z = z * 180 / np.pi
+
+    return x, y, z
+
+
+def myRotationMatrixToEulerAngles(R):
+    assert (isRotationMatrix(R))
+
+    x = math.atan2(R[2, 1], R[2, 2])
+    z = math.atan2(R[1, 0], R[0, 0])
+    if (math.cos(z) == 0):
+        y = math.atan2(-R[2, 0], R[1, 0] / math.sin(z))
+    else:
+        y = math.atan2(-R[2, 0], R[0, 0] / math.cos(z))
+
+    x = x * 180 / np.pi
+    y = y * 180 / np.pi
+    z = z * 180 / np.pi
+    x += 180
 
     return x, y, z
 
@@ -97,6 +116,16 @@ def rotation_angles(matrix):
 
     return (theta1, theta2, theta3)
 
+def drawBoxes(img, corners, imgpts):
+    imgpts = np.int32(imgpts).reshape(-1,2)
+
+    img = cv2.drawContours(img, [imgpts[:4]],-1,(0,255,0),-3)
+
+    for i,j in zip(range(4),range(4,8)):
+        img = cv2.line(img, tuple(imgpts[i]), tuple(imgpts[j]),(255), 3)
+
+    img = cv2.drawContours(img, [imgpts[4:]], -1,(0,0,255),3)
+    return img
 
 def pose_estimation(frame, aruco_dict_type, matrix_coefficients, distortion_coefficients):
     dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_7X7_1000)
@@ -120,11 +149,20 @@ def pose_estimation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
             rvec, tvec, markerPoints = cv2.aruco.estimatePoseSingleMarkers(corners[i], 0.02, matrix_coefficients,
                                                                            distortion_coefficients)
 
+            criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
+            corners2 = cv2.cornerSubPix(gray, corners[i], (11,11), (-1,-1), criteria)
+
             cv2.aruco.drawDetectedMarkers(frame, corners)
+            axisBoxes = np.float32(
+                [[0, 0, 0], [0, 0.03, 0], [0.03, 0.03, 0], [0.03, 0, 0], [0, 0, -0.03], [0, 0.03, -0.03], [0.03, 0.03, -0.03], [0.03, 0, - 0.03]])
+            imgpts, jac = cv2.projectPoints(axisBoxes, rvec, tvec, matrix_coefficients, distortion_coefficients)
+
+            frame = drawBoxes(frame, corners2, imgpts)
 
             rot_mat, _ = cv2.Rodrigues(rvec)
 
-            eulerAngles = rotation_angles(rot_mat)
+            # eulerAngles = rotationMatrixToEulerAngles(rot_mat)
+            eulerAngles = myRotationMatrixToEulerAngles(rot_mat)
             # eulerAngles = rotationMatrixToEulerAngles(rot_mat)
 
             # cv2.aruco.drawAxis(frame, matrix_coefficients, distortion_coefficients, rvec, tvec, 0.01)
