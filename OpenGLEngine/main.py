@@ -127,8 +127,8 @@ class GraphicsEngine:
 
             self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[2]), self.modify_angle(eulerAngles[1]),
                                        self.modify_angle(eulerAngles[0])) + vec3(-90, 0, 0))
-            self.scene.position_cat(vec3(-self.modify_n(tvec[0][0][1]) * 900 + 10, -tvec[0][0][2] * 700,
-                                         self.modify_n(tvec[0][0][0]) * 900 - 0))
+            self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 100, -self.modify_n(tvec[0][0][1]) * 100,
+                                         tvec[0][0][2] * 100 + 10))
 
             if not ret:
                 break

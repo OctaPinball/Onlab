@@ -15,10 +15,10 @@ class Scene:
         add = self.add_object
 
         n, s = 30, 3
-        for x in range(-n, n, s):
-            for z in range(-n, n, s):
-                add(Cube(app, pos=(x, -s, z)))
-        add(Cube(app, pos=(0, 0, 3)))
+        #for x in range(-n, n, s):
+        #    for z in range(-n, n, s):
+        #        add(Cube(app, pos=(x, -s, z)))
+        #add(Cube(app, pos=(0, 0, 10)))
 
         self.cat = Cat(app, pos=(10, -2, -10))
         add(self.cat)
