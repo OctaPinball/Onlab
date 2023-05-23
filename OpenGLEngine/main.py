@@ -123,12 +123,14 @@ class GraphicsEngine:
             cap.set(3, 1920.0)
             cap.set(4, 1080.0)
 
-
-
+            mult = ((0.2 * tvec[0][0][2]) + 200) / 500
+            sk = ((3.5 * tvec[0][0][2]) + 1385) / 680
             self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[0])+180, -self.modify_angle(eulerAngles[1]),
                                        self.modify_angle(eulerAngles[2])))
-            self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 100, -self.modify_n(tvec[0][0][1]) * 100,
-                                         tvec[0][0][2] * 100 + 10))
+            self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 400, -self.modify_n(tvec[0][0][1]) * 400,
+                                         tvec[0][0][2] * 200))
+            #self.scene.position_cat(vec3(sk*(tvec[0][0][0]/(tvec[0][0][2])), (tvec[0][0][1]/100) - (mult*(((1.5*tvec[0][0][1])+375)/360)),
+            #                             ((2*tvec[0][0][2])-1700)/400))
 
             if not ret:
                 break
