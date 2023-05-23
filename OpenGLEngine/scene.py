@@ -20,7 +20,7 @@ class Scene:
         #        add(Cube(app, pos=(x, -s, z)))
         #add(Cube(app, pos=(0, 0, 10)))
 
-        self.cat = Cat(app, pos=(10, -2, -10))
+        self.cat = Cat(app, pos=(0, 0, -5))
         add(self.cat)
 
     def rotate_cat(self, rotation):

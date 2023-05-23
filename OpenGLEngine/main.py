@@ -114,24 +114,49 @@ class GraphicsEngine:
             self.get_time()
             self.check_events()
             self.camera.update()
-            self.render()
+
             self.delta_time = self.clock.tick(60)
 
             ret, frame = cap.read()
-            frame, eulerAngles, tvec = pose_estimation(frame, ARUCO_DICT[aruco_type], intrinsic_camera, distortion)
+            frame, eulerAngles, tvec, rmtx = pose_estimation(frame, ARUCO_DICT[aruco_type], intrinsic_camera, distortion)
 
             cap.set(3, 1920.0)
             cap.set(4, 1080.0)
 
             mult = ((0.2 * tvec[0][0][2]) + 200) / 500
             sk = ((3.5 * tvec[0][0][2]) + 1385) / 680
-            self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[0])+180, -self.modify_angle(eulerAngles[1]),
-                                       self.modify_angle(eulerAngles[2])))
-            self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 400, -self.modify_n(tvec[0][0][1]) * 400,
-                                         tvec[0][0][2] * 200))
+            #self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[0])+180, -self.modify_angle(eulerAngles[1]),
+            #                           self.modify_angle(eulerAngles[2])))
+            #self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 400, -self.modify_n(tvec[0][0][1]) * 400,
+            #                             tvec[0][0][2] * 200))
             #self.scene.position_cat(vec3(sk*(tvec[0][0][0]/(tvec[0][0][2])), (tvec[0][0][1]/100) - (mult*(((1.5*tvec[0][0][1])+375)/360)),
             #                             ((2*tvec[0][0][2])-1700)/400))
 
+            INVERSE_MATRIX = np.array([[1.0, 1.0, 1.0, 1.0],
+                                       [-1.0, -1.0, -1.0, -1.0],
+                                       [-1.0, -1.0, -1.0, -1.0],
+                                       [1.0, 1.0, 1.0, 1.0]])
+
+            mult = ((0.2 * tvec[0][0][
+                2]) + 200) / 500  # VALUE RETURNED BY LINEAR EQUATION, INDIPENDENT VAR IS THE POSITION OF MARKER IN Z-
+            sk = ((3.5 * tvec[0][0][
+                2]) + 1385) / 680  # THE VALUES RETURNED BY THESE TWO EQUATIONS ARE USED AHEAD FOR MAPPING
+
+            # COMBINIG ROTATION MATRIX AND TRANSLATION VECTOR TO GIVE TRANSFORMATION MATRIX
+
+            view_matrix = np.array([[rmtx[0][0], rmtx[0][1], rmtx[0][2], sk * (tvec[0][0][0] / (tvec[0][0][2]))],
+                                    # MAPPING(i-e manipulating values of tvec) OF VALUES USING LINEAR EQUATIONS
+                                    [rmtx[1][0], rmtx[1][1], rmtx[1][2],
+                                     (tvec[0][0][1] / 100) - (mult * (((1.5 * tvec[0][0][1]) + 375) / 360))],
+                                    [rmtx[2][0], rmtx[2][1], rmtx[2][2], ((2 * tvec[0][0][2]) - 1700) / 400],
+                                    [0.0, 0.0, 0.0, 1.0]])
+
+            # CONVERTING TRANSFORMATION MATRIX IN OPENGL USABLE FORM BY INVERTING THE REQUIRED AXIS AND CHANGING THE FORMAT FROM ROW MAJOR TO COLUMN MAJOR BY TAKING TRANSPOSE
+            view_matrix = view_matrix * INVERSE_MATRIX
+            view_matrix = np.transpose(view_matrix)
+
+            self.camera.set_view_matrix(view_matrix)
+            self.render()
             if not ret:
                 break
 

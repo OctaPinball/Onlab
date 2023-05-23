@@ -141,6 +141,10 @@ def pose_estimation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
 
     eulerAngles = (0, 0, 0)
     tvec = [[[0.001, 10, 0.001]]]
+    rot_mat = np.array([[1.0, 0, 0, 1.0],
+                               [0, 1.0, 0, 1.0],
+                               [0, 0, 1.0, 1.0],
+                               [0, 0, 0, 1.0]])
 
     if len(corners) > 0:
         for i in range(0, len(ids)):
@@ -177,7 +181,7 @@ def pose_estimation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
             cv2.putText(frame, "RotationX: " + str(eulerAngles[0]), (7, 240), font, 1.5, (0, 0, 255), 3, cv2.LINE_AA)
             cv2.putText(frame, "RotationY: " + str(eulerAngles[1]), (7, 280), font, 1.5, (0, 255, 0), 3, cv2.LINE_AA)
             cv2.putText(frame, "RotationZ: " + str(eulerAngles[2]), (7, 320), font, 1.5, (255, 0, 0), 3, cv2.LINE_AA)
-    return frame, eulerAngles, tvec
+    return frame, eulerAngles, tvec, rot_mat
 
 
 aruco_type = "DICT_7X7_1000"

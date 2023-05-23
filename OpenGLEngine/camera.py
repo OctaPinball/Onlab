@@ -1,4 +1,5 @@
 import glm
+import numpy
 import pygame as pg
 
 FOV = 80  # deg
@@ -64,6 +65,9 @@ class Camera:
 
     def get_view_matrix(self):
         return glm.lookAt(self.position, self.position + self.forward, self.up)
+
+    def set_view_matrix(self, mtx):
+        self.m_view = numpy.ascontiguousarray(mtx)
 
     def get_projection_matrix(self):
         return glm.perspective(glm.radians(FOV), self.aspect_ratio, NEAR, FAR)
