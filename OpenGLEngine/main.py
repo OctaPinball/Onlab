@@ -69,6 +69,7 @@ class GraphicsEngine:
         self.time = pg.time.get_ticks() * 0.001
 
     def modify_n(self, input):
+        return input
         if (input < 0):
             return input * 1.5
         return input * 1.25
@@ -114,7 +115,6 @@ class GraphicsEngine:
             self.get_time()
             self.check_events()
             self.camera.update()
-            self.render()
             self.delta_time = self.clock.tick(60)
 
             ret, frame = cap.read()
@@ -123,15 +123,19 @@ class GraphicsEngine:
             cap.set(3, 1920.0)
             cap.set(4, 1080.0)
 
-
-
-            self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[2]), self.modify_angle(eulerAngles[1]),
-                                       self.modify_angle(eulerAngles[0])) + vec3(-90, 0, 0))
-            self.scene.position_cat(vec3(-self.modify_n(tvec[0][0][1]) * 900 + 10, -tvec[0][0][2] * 700,
-                                         self.modify_n(tvec[0][0][0]) * 900 - 0))
+            mult = ((0.2 * tvec[0][0][2]) + 200) / 500
+            sk = ((3.5 * tvec[0][0][2]) + 1385) / 680
+            self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 300, -self.modify_n(tvec[0][0][1]) * 300 - 4,
+                                         tvec[0][0][2] * 150))
+            self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[0])+180, -self.modify_angle(eulerAngles[1]),
+                                       self.modify_angle(eulerAngles[2])))
+            #self.scene.position_cat(vec3(sk*(tvec[0][0][0]/(tvec[0][0][2])), (tvec[0][0][1]/100) - (mult*(((1.5*tvec[0][0][1])+375)/360)),
+            #                             ((2*tvec[0][0][2])-1700)/400))
 
             if not ret:
                 break
+
+            self.render()
 
             # pixels = self.fbo.read(components=4)
             self.pixels = np.frombuffer(self.pixels, dtype="uint8").reshape(*self.fbo.size[1::-1], 4)
