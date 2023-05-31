@@ -1,6 +1,7 @@
 import numpy as np
 import moderngl as mgl
 import pywavefront
+from objloader import Obj
 
 
 class VBO:
@@ -83,6 +84,29 @@ class CatVBO(BaseVBO):
         self.attribs = ['in_texcoord_0', 'in_normal', 'in_position']
 
     def get_vertex_data(self):
+        objs = pywavefront.Wavefront('objects/home2/cottage.obj', create_materials=True, cache=True, parse=True, collect_faces=False)
+
+        vbos = []
+        tbos = []
+        for mesh in objs.mesh_list:
+            vertices = []
+            texcoords = []
+
+            for face in mesh.vertices:
+                for vertex_index, texture_index, normal_index in face:
+                    vertex = mesh.vertices[vertex_index]
+                    texture = mesh.texcoords[texture_index]
+
+                    vertices.extend(vertex)
+                    texcoords.extend(texture)
+
+            vbo = self.ctx.buffer(vertices)
+            tbo = self.ctx.buffer(texcoords)
+
+            vbos.append(vbo)
+            tbos.append(tbo)
+        return vbos
+
         objs = pywavefront.Wavefront('objects/home2/cottage.obj', create_materials=True, cache=True, parse=True, collect_faces=False)
         obj = objs.materials.popitem()[1]
         vertex_data = []

@@ -75,7 +75,10 @@ class Cat(BaseModel):
         self.on_init()
 
     def update(self):
-        self.texture.use()
+        i = 0
+        for texture in self.texture:
+            texture.use(i)
+            i = i + 1
         self.m_model = self.get_model_matrix()
         self.program['camPos'].write(self.camera.position)
         self.program['m_view'].write(self.camera.m_view)
@@ -86,7 +89,10 @@ class Cat(BaseModel):
         # texture
         self.texture = self.app.mesh.texture.textures[self.tex_id]
         self.program['u_texture_0'] = 0
-        self.texture.use()
+        i = 0
+        for texture in self.texture:
+            texture.use(i)
+            i = i + 1
         # mvp
         self.program['m_proj'].write(self.camera.m_proj)
         self.program['m_view'].write(self.camera.m_view)

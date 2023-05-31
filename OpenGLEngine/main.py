@@ -82,7 +82,7 @@ class GraphicsEngine:
     def run(self):
         intrinsic_camera = np.array(((1327.67565, 0, 974.294603), (0, 1334.33865, 633.624359), (0, 0, 1)))
         distortion = np.array((-0.0, 0.0, 0, 0))
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
         cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
         cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
         cap.set(3, 1920)
