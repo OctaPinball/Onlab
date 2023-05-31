@@ -12,10 +12,10 @@ class BaseModel:
         self.m_model = self.get_model_matrix()
         self.tex_id = tex_id
         self.vao = app.mesh.vao.vaos[vao_name]
-        self.program = self.vao.program
+        self.program = next(iter(self.vao.items()))[1].program
         self.camera = self.app.camera
 
-    def update(self): ...
+    def update(self, texture_name): ...
 
     def get_model_matrix(self):
         m_model = glm.mat4()
@@ -30,9 +30,9 @@ class BaseModel:
         return m_model
 
     def render(self):
-        print(self.rot)
-        self.update()
-        self.vao.render()
+        for name, vao in self.vao.items():
+            self.update(name)
+            vao.render()
 
     def set_rot(self, rot):
         self.rot = glm.vec3([glm.radians(a) for a in rot])
@@ -46,11 +46,10 @@ class Obj(BaseModel):
         super().__init__(app, vao_name, tex_id, pos, rot, scale)
         self.on_init()
 
-    def update(self):
-        i = 0
-        for texture in self.texture:
-            texture.use(i)
-            i = i + 1
+    def update(self, texture_name):
+        if str(texture_name) in self.app.mesh.texture.textures:
+            texture = self.app.mesh.texture.textures[str(texture_name)]
+            texture.use()
         self.m_model = self.get_model_matrix()
         self.program['camPos'].write(self.camera.position)
         self.program['m_view'].write(self.camera.m_view)

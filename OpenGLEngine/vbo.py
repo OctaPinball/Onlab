@@ -20,15 +20,25 @@ class BaseVBO:
         self.format: str = None
         self.attribs: list = None
 
+
     def get_vertex_data(self): ...
 
     def get_vbo(self):
         vertex_data = self.get_vertex_data()
-        vbo = self.ctx.buffer(vertex_data)
-        return vbo
+        dictionary = dict()
+        for name, vbo in vertex_data.items():
+            dictionary.update({str(name): self.ctx.buffer(vbo)})
+        return dictionary
+    def get_vbo_new(self):
+        vbos = []
+        vertex_datas = self.get_vertex_data()
+        for vertex_data in vertex_datas:
+            vbos.append(self.ctx.buffer(vertex_data))
+        return vbos
 
     def destroy(self):
-        self.vbo.release()
+        for vbo in self.vbo:
+            vbo.release()
 
 
 class ObjVBO(BaseVBO):
@@ -39,12 +49,14 @@ class ObjVBO(BaseVBO):
 
     def get_vertex_data(self):
         objs = pywavefront.Wavefront('objects/home2/cottage.obj', create_materials=True, cache=True, parse=True, collect_faces=False)
-        obj = objs.materials.popitem()[1]
-        vertex_data = []
-        for name, material in objs.materials.items():
-            vertex_data += material.vertices
-        vertex_data = np.array(vertex_data, dtype='f4')
-        return vertex_data
+        vertices = []
+        dictionary = dict()
+        for name, mesh in objs.materials.items():
+            if len(mesh.vertices) != 0:
+                vertices = np.array(mesh.vertices, dtype='f4')
+                dictionary.update({str(name): vertices})
+        return dictionary
+
 
 
 

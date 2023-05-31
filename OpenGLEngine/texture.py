@@ -1,11 +1,17 @@
 import pygame as pg
 import moderngl as mgl
+import pywavefront
 
 
 class Texture:
     def __init__(self, ctx):
         self.ctx = ctx
         self.textures = {}
+        objs = pywavefront.Wavefront('objects/home2/cottage.obj', create_materials=True, cache=True, parse=True,
+                                     collect_faces=False)
+        for name, mesh in objs.materials.items():
+            if hasattr(mesh, 'texture') and hasattr(mesh.texture, 'file_name'):
+                self.textures[str(name)] = self.get_texture(path='objects/home2/'+mesh.texture.file_name)
         self.textures['obj'] = []
         self.textures['obj'].append(self.get_texture(path='objects/home2/IMG_0367.jpg'))
         self.textures['obj'].append(self.get_texture(path='objects/home2/leafs.jpg'))
