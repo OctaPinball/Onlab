@@ -29,12 +29,6 @@ class BaseVBO:
         for name, vbo in vertex_data.items():
             dictionary.update({str(name): self.ctx.buffer(vbo)})
         return dictionary
-    def get_vbo_new(self):
-        vbos = []
-        vertex_datas = self.get_vertex_data()
-        for vertex_data in vertex_datas:
-            vbos.append(self.ctx.buffer(vertex_data))
-        return vbos
 
     def destroy(self):
         for vbo in self.vbo:

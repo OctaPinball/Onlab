@@ -28,15 +28,6 @@ class VAO:
             dictionary.update({str(name): self.ctx.vertex_array(program, [(current_vbo, vbo.format, *vbo.attribs)])})
         return dictionary
 
-    def get_vao_new(self, program, vbo):
-        array = []
-        for current_vbo in vbo.vbo:
-            cvbo = current_vbo
-            array.append((current_vbo, vbo.format, *vbo.attribs))
-        vao = self.ctx.vertex_array(program, array)
-        vao = self.ctx.vertex_array(program, [(vbo.vbo[0], vbo.format, *vbo.attribs)])
-        return vao
-
     def destroy(self):
         self.vbo.destroy()
         self.program.destroy()
