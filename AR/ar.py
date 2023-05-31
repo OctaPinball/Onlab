@@ -140,7 +140,7 @@ def pose_estimation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
     corners, ids, rejected_img_points = detector.detectMarkers(gray)
 
     eulerAngles = (0, 0, 0)
-    tvec = [[[0.001, 10, 0.001]]]
+    tvec = [[[0.001, 10.001, 0.001]]]
 
     if len(corners) > 0:
         for i in range(0, len(ids)):

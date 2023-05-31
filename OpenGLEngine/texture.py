@@ -1,16 +1,29 @@
 import pygame as pg
 import moderngl as mgl
+import pywavefront
 
 
 class Texture:
     def __init__(self, ctx):
         self.ctx = ctx
         self.textures = {}
-        self.textures[0] = self.get_texture(path='textures/img.png')
-        self.textures[1] = self.get_texture(path='textures/img_1.png')
-        self.textures[2] = self.get_texture(path='textures/img_2.png')
-        self.textures['cat'] = self.get_texture(path='objects/home2/IMG_0367.jpg')
-        self.textures['cat2'] = self.get_texture(path='objects/home/3ds_2mar.jpg')
+        objs = pywavefront.Wavefront('objects/home2/cottage.obj', create_materials=True, cache=True, parse=True,
+                                     collect_faces=False)
+        for name, mesh in objs.materials.items():
+            if hasattr(mesh, 'texture') and hasattr(mesh.texture, 'file_name'):
+                self.textures[str(name)] = self.get_texture(path='objects/home2/'+mesh.texture.file_name)
+        self.textures['obj'] = []
+        self.textures['obj'].append(self.get_texture(path='objects/home2/IMG_0367.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/leafs.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/m1.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/wheelb.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/IMG_0367A.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/stroh_4d.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/stroh_4e.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/strohalp.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/WoodRough0021_L90.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/door12+.jpg'))
+        self.textures['obj'].append(self.get_texture(path='objects/home2/door12+b.jpg'))
 
     def get_texture(self, path):
         texture = pg.image.load(path).convert()

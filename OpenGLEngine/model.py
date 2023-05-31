@@ -12,10 +12,10 @@ class BaseModel:
         self.m_model = self.get_model_matrix()
         self.tex_id = tex_id
         self.vao = app.mesh.vao.vaos[vao_name]
-        self.program = self.vao.program
+        self.program = next(iter(self.vao.items()))[1].program
         self.camera = self.app.camera
 
-    def update(self): ...
+    def update(self, texture_name): ...
 
     def get_model_matrix(self):
         m_model = glm.mat4()
@@ -30,9 +30,9 @@ class BaseModel:
         return m_model
 
     def render(self):
-        print(self.rot)
-        self.update()
-        self.vao.render()
+        for name, vao in self.vao.items():
+            self.update(name)
+            vao.render()
 
     def set_rot(self, rot):
         self.rot = glm.vec3([glm.radians(a) for a in rot])
@@ -40,42 +40,16 @@ class BaseModel:
     def set_pos(self, pos):
         self.pos = pos
 
-
-class Cube(BaseModel):
-    def __init__(self, app, vao_name='cube', tex_id=0, pos=(0, 0, 0), rot=(0, 0, 0), scale=(1, 1, 1)):
-        super().__init__(app, vao_name, tex_id, pos, rot, scale)
-        self.on_init()
-
-    def update(self):
-        self.texture.use()
-        self.program['camPos'].write(self.camera.position)
-        self.program['m_view'].write(self.camera.m_view)
-        self.program['m_model'].write(self.m_model)
-
-    def on_init(self):
-        # texture
-        self.texture = self.app.mesh.texture.textures[self.tex_id]
-        self.program['u_texture_0'] = 0
-        self.texture.use()
-        # mvp
-        self.program['m_proj'].write(self.camera.m_proj)
-        self.program['m_view'].write(self.camera.m_view)
-        self.program['m_model'].write(self.m_model)
-        # light
-        self.program['light.position'].write(self.app.light.position)
-        self.program['light.Ia'].write(self.app.light.Ia)
-        self.program['light.Id'].write(self.app.light.Id)
-        self.program['light.Is'].write(self.app.light.Is)
-
-
-class Cat(BaseModel):
-    def __init__(self, app, vao_name='cat', tex_id='cat',
+class Obj(BaseModel):
+    def __init__(self, app, vao_name='obj', tex_id='obj',
                  pos=(0, 0, 0), rot=(-90, 0, 0), scale=(1, 1, 1)):
         super().__init__(app, vao_name, tex_id, pos, rot, scale)
         self.on_init()
 
-    def update(self):
-        self.texture.use()
+    def update(self, texture_name):
+        if str(texture_name) in self.app.mesh.texture.textures:
+            texture = self.app.mesh.texture.textures[str(texture_name)]
+            texture.use()
         self.m_model = self.get_model_matrix()
         self.program['camPos'].write(self.camera.position)
         self.program['m_view'].write(self.camera.m_view)
@@ -86,7 +60,10 @@ class Cat(BaseModel):
         # texture
         self.texture = self.app.mesh.texture.textures[self.tex_id]
         self.program['u_texture_0'] = 0
-        self.texture.use()
+        i = 0
+        for texture in self.texture:
+            texture.use(i)
+            i = i + 1
         # mvp
         self.program['m_proj'].write(self.camera.m_proj)
         self.program['m_view'].write(self.camera.m_view)

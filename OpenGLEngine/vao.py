@@ -8,20 +8,25 @@ class VAO:
         self.vbo = VBO(ctx)
         self.program = ShaderProgram(ctx)
         self.vaos = {}
-
-        # cube vao
-        self.vaos['cube'] = self.get_vao(
+        # obj vao
+        self.vaos['obj'] = self.get_vao(
             program=self.program.programs['default'],
-            vbo = self.vbo.vbos['cube'])
+            vbo=self.vbo.vbos['obj'])
+        #self.get_vaos(program=self.program.programs['default'], vbo=self.vbo.vbos['obj'])
 
-        # cat vao
-        self.vaos['cat'] = self.get_vao(
-            program=self.program.programs['default'],
-            vbo=self.vbo.vbos['cat'])
+
+    def get_vaos(self, program, vbo):
+        i = 0
+        for current_vbo in vbo.vbo:
+            self.vaos['obj'+i] = self.ctx.vertex_array(program, [(current_vbo, current_vbo.format, *current_vbo.attribs)])
+            i = i + 1
+
 
     def get_vao(self, program, vbo):
-        vao = self.ctx.vertex_array(program, [(vbo.vbo, vbo.format, *vbo.attribs)])
-        return vao
+        dictionary = dict()
+        for name, current_vbo in vbo.vbo.items():
+            dictionary.update({str(name): self.ctx.vertex_array(program, [(current_vbo, vbo.format, *vbo.attribs)])})
+        return dictionary
 
     def destroy(self):
         self.vbo.destroy()
