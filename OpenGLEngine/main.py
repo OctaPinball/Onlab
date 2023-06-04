@@ -1,4 +1,3 @@
-import moderngl
 import pygame as pg
 import moderngl as mgl
 import sys
@@ -6,12 +5,12 @@ import sys
 from glm import vec3
 
 from AR.ar import pose_estimation
-from model import *
 from camera import Camera
 from light import Light
 from mesh import Mesh
 from scene import Scene
 import cv2
+import numpy as np
 
 
 class GraphicsEngine:
@@ -68,17 +67,6 @@ class GraphicsEngine:
     def get_time(self):
         self.time = pg.time.get_ticks() * 0.001
 
-    def modify_n(self, input):
-        return input
-        if (input < 0):
-            return input * 1.5
-        return input * 1.25
-
-    def modify_angle(self, input):
-        # if(input < 0):
-        #    return 360-input
-        return input
-
     def run(self):
         intrinsic_camera = np.array(((1327.67565, 0, 974.294603), (0, 1334.33865, 633.624359), (0, 0, 1)))
         distortion = np.array((-0.0, 0.0, 0, 0))
@@ -125,25 +113,15 @@ class GraphicsEngine:
 
             mult = ((0.2 * tvec[0][0][2]) + 200) / 500
             sk = ((3.5 * tvec[0][0][2]) + 1385) / 680
-            self.scene.position_cat(vec3(self.modify_n(-tvec[0][0][0]) * 300, -self.modify_n(tvec[0][0][1]) * 300 - 4,
-                                         tvec[0][0][2] * 150))
-            self.scene.rotate_cat(vec3(-self.modify_angle(eulerAngles[0])+180, -self.modify_angle(eulerAngles[1]),
-                                       self.modify_angle(eulerAngles[2])))
-            #self.scene.position_cat(vec3(sk*(tvec[0][0][0]/(tvec[0][0][2])), (tvec[0][0][1]/100) - (mult*(((1.5*tvec[0][0][1])+375)/360)),
-            #                             ((2*tvec[0][0][2])-1700)/400))
+            self.scene.position_obj(vec3(-tvec[0][0][0] * 300, -tvec[0][0][1] * 300 - 4, tvec[0][0][2] * 150))
+            self.scene.rotate_obj(vec3(-eulerAngles[0]+180, -eulerAngles[1], eulerAngles[2]))
 
             if not ret:
                 break
 
             self.render()
-
-            # pixels = self.fbo.read(components=4)
             self.pixels = np.frombuffer(self.pixels, dtype="uint8").reshape(*self.fbo.size[1::-1], 4)
-            # print(self.pixels)
-            # f = open("demofile3.txt", "w")
-            # for name in self.pixels:
-            #    f.write(str(name))
-            # f.close()
+
 
             self.pixels = cv2.resize(self.pixels, (1920, 1080))
 
@@ -167,11 +145,8 @@ class GraphicsEngine:
 
             # Convert the ModernGL context to an OpenCV image
             outImg = cv2.convertScaleAbs(cv2.addWeighted(image, 1, frame, 1, 0))
-            #outImg = cv2.addWeighted(frame, 1, image, 1, 0)
 
             # Display the resulting image
-
-
             cv2.imshow('AR', outImg)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break

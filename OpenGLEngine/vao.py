@@ -12,7 +12,6 @@ class VAO:
         self.vaos['obj'] = self.get_vao(
             program=self.program.programs['default'],
             vbo=self.vbo.vbos['obj'])
-        #self.get_vaos(program=self.program.programs['default'], vbo=self.vbo.vbos['obj'])
 
 
     def get_vaos(self, program, vbo):

@@ -6,8 +6,57 @@
   <component name="ChangeListManager">
     <list default="true" id="fa9e3382-63a2-4fa1-be55-d40e5120d8b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Avocado.fbm/2256_Avocado_d.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Avocado.fbm/2256_Avocado_n.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Avocado.fbm/2256_Avocado_s.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Avocado.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Body_dDo_d_orange.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Body_dDo_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Body_dDo_s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Body_illumination.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Interior_dDo_d_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Interior_dDo_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Interior_dDo_s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Pony_cartoon.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Pony_cartoon.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/Pony_cartoon_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/TwoJointRobot.urdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/adamHead.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/harfangLibTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AR/vid.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/demofile3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/mesh.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/mesh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLEngine/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BB-starwars.obj.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BB-starwars.obj.obj.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BB-starwars.obj.obj.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BB8TEX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BB8TEX11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BB8TEX_NRM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/BODYREF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/bb8/LENSREF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/cat/20430_Cat_v1_NEW.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/cat/20430_Cat_v1_NEW.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/cat/20430_Cat_v1_NEW.obj.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/cat/20430_Cat_v1_NEW.obj.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/cat/20430_cat_diff_v1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/3ds_0Buk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/3ds_2mar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/budai peter.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/budai peter.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/budai peter.obj.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/objects/home/budai peter.obj.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/scene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/screenshot/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLEngine/texture.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/texture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/textures/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/textures/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/textures/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLEngine/textures/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLEngine/vao.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/vao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLEngine/vbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLEngine/vbo.py" afterDir="false" />
     </list>
@@ -223,7 +272,8 @@
       <workItem from="1684744062723" duration="1241000" />
       <workItem from="1684836824803" duration="6546000" />
       <workItem from="1684918486848" duration="4333000" />
-      <workItem from="1685522379719" duration="23402000" />
+      <workItem from="1685522379719" duration="24361000" />
+      <workItem from="1685793778952" duration="4143000" />
     </task>
     <servers />
   </component>
@@ -232,7 +282,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Önlab$calibration.coverage" NAME="calibration Coverage Results" MODIFIED="1684427206548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CameraCalibration" />
-    <SUITE FILE_PATH="coverage/Onlab$main.coverage" NAME="main Coverage Results" MODIFIED="1685552882986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenGLEngine" />
+    <SUITE FILE_PATH="coverage/Onlab$main.coverage" NAME="main Coverage Results" MODIFIED="1685881030414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenGLEngine" />
     <SUITE FILE_PATH="coverage/Önlab$test.coverage" NAME="test Coverage Results" MODIFIED="1681745527295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenGLEngine" />
     <SUITE FILE_PATH="coverage/Önlab$ar.coverage" NAME="ar Coverage Results" MODIFIED="1681754518508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Önlab$harfangLibTest__1_.coverage" NAME="harfangLibTest (1) Coverage Results" MODIFIED="1681493943542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AR" />

@@ -1,7 +1,5 @@
 import numpy as np
-import moderngl as mgl
 import pywavefront
-from objloader import Obj
 
 
 class VBO:

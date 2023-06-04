@@ -14,14 +14,14 @@ class Scene:
         app = self.app
         add = self.add_object
 
-        self.cat = Obj(app, pos=(0, 0, 0))
-        add(self.cat)
+        self.obj = Obj(app, pos=(0, 0, 0))
+        add(self.obj)
 
-    def rotate_cat(self, rotation):
-        self.cat.set_rot(rotation)
+    def rotate_obj(self, rotation):
+        self.obj.set_rot(rotation)
 
-    def position_cat(self, tvec):
-        self.cat.set_pos(tvec)
+    def position_obj(self, tvec):
+        self.obj.set_pos(tvec)
 
     def render(self):
         for obj in self.objects:

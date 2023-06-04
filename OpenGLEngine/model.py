@@ -1,16 +1,12 @@
-import moderngl as mgl
-import numpy as np
 import glm
 
-
 class BaseModel:
-    def __init__(self, app, vao_name, tex_id, pos=(0, 0, 0), rot=(0, 0, 0), scale=(1, 1, 1)):
+    def __init__(self, app, vao_name, pos=(0, 0, 0), rot=(0, 0, 0), scale=(1, 1, 1)):
         self.app = app
         self.pos = pos
         self.rot = glm.vec3([glm.radians(a) for a in rot])
         self.scale = scale
         self.m_model = self.get_model_matrix()
-        self.tex_id = tex_id
         self.vao = app.mesh.vao.vaos[vao_name]
         self.program = next(iter(self.vao.items()))[1].program
         self.camera = self.app.camera
@@ -41,9 +37,9 @@ class BaseModel:
         self.pos = pos
 
 class Obj(BaseModel):
-    def __init__(self, app, vao_name='obj', tex_id='obj',
+    def __init__(self, app, vao_name='obj',
                  pos=(0, 0, 0), rot=(-90, 0, 0), scale=(1, 1, 1)):
-        super().__init__(app, vao_name, tex_id, pos, rot, scale)
+        super().__init__(app, vao_name, pos, rot, scale)
         self.on_init()
 
     def update(self, texture_name):
@@ -58,12 +54,7 @@ class Obj(BaseModel):
 
     def on_init(self):
         # texture
-        self.texture = self.app.mesh.texture.textures[self.tex_id]
         self.program['u_texture_0'] = 0
-        i = 0
-        for texture in self.texture:
-            texture.use(i)
-            i = i + 1
         # mvp
         self.program['m_proj'].write(self.camera.m_proj)
         self.program['m_view'].write(self.camera.m_view)
